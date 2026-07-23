@@ -1,8 +1,27 @@
 aid: altonomy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altonomy.png
 name: Altonomy
-description: 'Altonomy is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: trading. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Altonomy is a digital-asset trading, market-making, and OTC firm founded in 2018 and
+  headquartered in Singapore, with additional offices in New York City and Shenzhen. The firm provides
+  24/7 over-the-counter transaction services for crypto-to-fiat and crypto-to-crypto trades, deep
+  liquidity coverage for illiquid tokens, and institutional-grade advisory and asset-management
+  solutions across proprietary trading, mining, and venture capital. Its proprietary Hybrid IQ
+  methodology pairs discretionary crypto-market experience with market-making algorithms to deliver
+  order-book depth and tight spreads. Altonomy is also a data provider to the Pyth Network. In 2022,
+  Blockchain.com acquired Altonomy''s OTC trading desk; Altonomy continues to operate its other lines
+  of business. Altonomy publishes no public developer API or documentation surface; this profile is a
+  company/provider identity record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/altonomy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +35,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Trading
+- Cryptocurrency
+- Digital Assets
+- Market Making
+- OTC
+- Liquidity
+- Asset Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://altonomy.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/altonomy
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/altonomy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
